@@ -1,33 +1,38 @@
-.img {
-    display: flex;
-    align-items: center;
-    width: 185px;
-    height: 32px;
-    margin-top: 42px;
-    margin-left: 145px;
+body {
+    font-family: "Poppins", sans-serif;
+}
+.container {
+    max-width: 1400px;
+    padding: 0 145px;
+    margin: 0 auto;
 }
 .navbar {
+    padding-top: 44px;
+}
+.navbar .container {
     display: flex;
     align-items: center;
-    padding-top: 44px;   
+}
+.logo {
+    width: 185px;
+    height: 32px;
+}
+nav {
+    margin-left: 332px;
 }
 .navlinks {
     list-style: none;
     display: flex;
     gap: 30px;
-    margin-left: 332px;
 }
 .navlinks a {
     text-decoration: none;
-    font-family: "Poppins", sans-serif;
-    font-style: normal;
     font-size: 14px;
     line-height: 28px;
     color: #2F281E;
 }
 .nav-btn {
     display: flex;
-    align-items: center;
     gap: 14px;
     margin-left: 29px;
 }
@@ -35,15 +40,68 @@
     width: 102px;
     height: 46px;
     border-radius: 4px;
-    border-color: #BCD0E5;
+    border: 1px solid #BCD0E5;
+    background: #fff;
+    font-weight: 600;
+    font-size: 16px;
 }
 .signup {
     width: 110px;
     height: 46px;
     border-radius: 4px;
-    background-color: #FF9900;
-    font-family: "Poppins", sans-serif;
+    background: #FF9900;
+    color: #fff;
     font-weight: 600;
     font-size: 16px;
-    margin-right: 145px;
+    border: none;
+}
+.main-title {
+    max-width: 518px;
+    width: 100%;
+    margin-top: 113px;
+    margin-left: 145px;
+    font-weight: bold;
+    color: #2F281E;
+}
+.main-info {
+    max-width: 458px;
+    width: 100%;
+    margin-top: 30px;
+    margin-left: 145px;
+    font-style: normal;
+    font-size: 18px;
+    line-height: 28px;
+    color: #544837;
+}
+.getstarted {
+    width: 175px;
+    height: 53px;
+    border-radius: 4px;
+    align-items: center;
+    margin-top: 45px;
+    margin-left: 145px;
+    background: #FF9900;
+    border: none;
+    font-weight: bold;
+    font-size: 16px;
+    color: #FFFFFF;
+}
+.arrow-btn {
+    display: inline-flex;
+    align-items: center;
+    gap: 9px;
+    margin-top: 62px;
+    margin-left: 31px;
+    font-weight: 600;
+    font-size: 16px;
+    color: #FF9900;
+    text-decoration: underline;
+}
+.arrow-btn img {
+    width: 20px;
+    height: 17px;
+    border-radius: 1.13px;
+}
+section {
+    display: inline-block;
 }
