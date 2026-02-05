@@ -12,13 +12,14 @@ body {
 .navbar .container {
     display: flex;
     align-items: center;
+    justify-content: space-between;
 }
 .logo {
     width: 185px;
     height: 32px;
 }
 nav {
-    margin-left: 332px;
+    margin-left: 0;
 }
 .navlinks {
     list-style: none;
@@ -34,7 +35,7 @@ nav {
 .nav-btn {
     display: flex;
     gap: 14px;
-    margin-left: 29px;
+    margin-left: 0;
 }
 .signin {
     width: 102px;
@@ -44,6 +45,7 @@ nav {
     background: #fff;
     font-weight: 600;
     font-size: 16px;
+    cursor: pointer;
 }
 .signup {
     width: 110px;
@@ -54,22 +56,32 @@ nav {
     font-weight: 600;
     font-size: 16px;
     border: none;
+    cursor: pointer;
+}
+main {
+    max-width: 1400px;
+    margin: 0 auto;
+}
+.main-section {
+    max-width: 518px;
+    margin-top: 113px;
+    margin-left: 145px;
 }
 .main-title {
     max-width: 518px;
     width: 100%;
-    margin-top: 113px;
-    margin-left: 145px;
     font-weight: bold;
+    font-size: 44px;
+    line-height: 54px;
     color: #2F281E;
 }
 .main-info {
     max-width: 458px;
     width: 100%;
     margin-top: 30px;
-    margin-left: 145px;
     font-style: normal;
     font-size: 18px;
+    font-weight: 400;
     line-height: 28px;
     color: #544837;
 }
@@ -77,20 +89,18 @@ nav {
     width: 175px;
     height: 53px;
     border-radius: 4px;
-    align-items: center;
     margin-top: 45px;
-    margin-left: 145px;
     background: #FF9900;
     border: none;
     font-weight: bold;
     font-size: 16px;
     color: #FFFFFF;
+    cursor: pointer;
 }
 .arrow-btn {
     display: inline-flex;
     align-items: center;
     gap: 9px;
-    margin-top: 62px;
     margin-left: 31px;
     font-weight: 600;
     font-size: 16px;
@@ -102,6 +112,74 @@ nav {
     height: 17px;
     border-radius: 1.13px;
 }
-section {
-    display: inline-block;
+.people-section {
+    position: absolute;
+    right: 145px;
+    top: 160px;
+}
+.people-section img {
+    width: 605px;
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+/* ---SECOND PAGE FEATURES-- */
+.features-title {
+    max-width: 539px;
+    margin-top: 111px;
+    margin-left: 439px;
+    text-align: center;
+}
+.features {
+    display: flex;
+    max-width: 1400px;
+    margin-left: 161px;
+    margin-top: 53px;
+}
+h4 {
+    font-weight: bold;
+    font-style: normal;
+    font-size: 22px;
+    color: #2F281E;
+}
+.feature {
+    max-width: 240px;
+    padding: 13px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #544837;
+}
+.content-btn {
+    display: flex;
+    max-width: 1400px;
+    margin-top: auto;
+    margin-left: 621px;
+}
+.primary-btn {
+    width: 175px;
+    height: 53px;
+    border-radius: 4px;
+    background-color: #FF9900;
+    border: none;
+    font-weight: bold;
+    font-size: 16px;
+    color: #FFFFFF;
+}
+.design {
+    max-width: 1400px;
+    margin-left: 145px;
+    margin-top: 236px;
+}
+h3 {
+    font-weight: bold;
+    font-size: 36px;
+    color: #2F281E;
+}
+.design-info {
+    max-width: 486px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #544837;
 }
