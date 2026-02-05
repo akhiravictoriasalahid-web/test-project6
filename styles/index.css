@@ -168,8 +168,12 @@ h4 {
 }
 .design {
     max-width: 1400px;
-    margin-left: 145px;
     margin-top: 236px;
+    margin-left: 145px;
+    display: grid;
+    grid-template-columns: 486px 1fr;
+    align-items: start;
+    column-gap: 104px;
 }
 h3 {
     font-weight: bold;
@@ -182,4 +186,13 @@ h3 {
     font-size: 16px;
     line-height: 26px;
     color: #544837;
+}
+.info-image {
+    display: flex;
+    justify-content: flex-start;
+}
+.info-image img {
+    width: 520px;
+    height: 573px;
+    display: block;
 }
