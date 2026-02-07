@@ -1,6 +1,5 @@
 body {
     font-family: "Poppins", sans-serif;
-    margin: 0;
 }
 .container {
     max-width: 1400px;
@@ -72,7 +71,6 @@ main {
 }
 .main-title {
     max-width: 518px;
-    width: 100%;
     font-weight: bold;
     font-size: 44px;
     line-height: 54px;
@@ -129,13 +127,15 @@ main {
 }
 /* ---SECOND PAGE FEATURES-- */
 .features-title {
+    justify-content: flex-start;
     max-width: 539px;
     margin-top: 111px;
     text-align: center;
 }
 .features {
     display: flex;
-    align-items: center;
+    justify-content: flex-start;
+    gap: 103px;
     margin-top: 53px;
 }
 h4 {
@@ -145,15 +145,19 @@ h4 {
     color: #2F281E;
 }
 .feature {
-    max-width: 1095px;
+    width: 240px;
     font-weight: 400;
     font-size: 16px;
     line-height: 26px;
+    border: 2px solid transparent;
     color: #544837;
+}
+.feature img {
+    width: 50px;
+    border: 2px solid transparent;
 }
 .content-btn {
     display: flex;
-    max-width: 1400px;
     margin-top: 60px;
     margin-left: 500px;
 }
@@ -198,7 +202,6 @@ h3 {
 }
 /* FOURTH PAGE */
 .page-content {
-      max-width: 1400px;
       margin-top: 102px;
       display: grid;
       grid-template-columns: 532px 1fr;
@@ -229,15 +232,13 @@ h3 {
 }
 .check-item img {
     width: 35px;
-    height: 35px;
-    flex-shrink: 0;
+    border: 2px solid transparent;
 }
 .h-line {
     height: 1px;
-    width: 100%;
-    margin-top: 146px;
     background-color: #BCD0E5;
     margin-top: 146px;
+    border: 1px solid transparent;
 }
 .footer {
     margin-top: 102px;
@@ -325,4 +326,18 @@ body button {
 }
 .footer-signup button:hover {
     border-color: #0000ff;
+}
+.features img:hover {
+    border-color: #0000ff;
+}
+.check-item img:hover {
+    border-color: #0000ff;
+}
+.h-line:hover {
+    border-color: #0000ff;
+}
+.footer-info a:hover {
+    text-decoration: underline;
+    text-decoration-color: blue;
+    text-decoration-thickness: 2px;
 }
